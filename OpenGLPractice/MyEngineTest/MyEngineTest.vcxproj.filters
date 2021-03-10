@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\第三方库">
+      <UniqueIdentifier>{4df9ddd7-b8c6-4c73-a2a1-f872bda51cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第三方库">
+      <UniqueIdentifier>{3191aee6-f035-43b5-af4c-820cddc6f1f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\着色器">
+      <UniqueIdentifier>{0fdff8d7-782d-47d1-b3e4-2ca5007d841f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\天空盒">
+      <UniqueIdentifier>{b9be0ef3-a7cd-4268-a553-9e44c2ee9917}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\渲染">
+      <UniqueIdentifier>{d23e7d91-644e-4cc0-bb26-81b88408cd45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\模型与相关">
+      <UniqueIdentifier>{21f54e4b-decb-48c5-ab2b-e4408a46dfba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\场景树基类">
+      <UniqueIdentifier>{a8fe9ffb-d3d4-46d3-b0e0-3b8e89eebaa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\天空盒">
+      <UniqueIdentifier>{1a2264e4-86dd-4a82-ab49-1951596c4ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\输入">
+      <UniqueIdentifier>{22defcf2-fd4b-446c-85ac-b1476754765b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\摄像机">
+      <UniqueIdentifier>{e71d22a2-4096-4cf1-a957-30819205f823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\光照">
+      <UniqueIdentifier>{e9b0e298-8ad8-4f55-9e0d-3d15212a3ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\光照">
+      <UniqueIdentifier>{05bacaa3-c2ac-4fa8-8008-aba59fa8bc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\摄像机">
+      <UniqueIdentifier>{09833fd9-dc46-4d92-891e-cc4479415c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\天空盒">
+      <UniqueIdentifier>{62f6b5df-a3a3-4bfa-b870-211755f77b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\场景树基类">
+      <UniqueIdentifier>{fb72c26e-11aa-4fb8-b3f8-82e0b8145979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\模型与相关">
+      <UniqueIdentifier>{11ef451e-85f1-4790-ba34-efa6c30b3586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\渲染">
+      <UniqueIdentifier>{dd590d83-3a84-45b8-86c6-70114bfb3768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\输入">
+      <UniqueIdentifier>{3cc6be07-ff10-46f5-9815-42c1af62bc62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\第三方库</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件\第三方库</Filter>
+    </ClCompile>
+    <ClCompile Include="MyEngineTest.cpp" />
+    <ClCompile Include="MyKeyboard.cpp">
+      <Filter>源文件\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMouse.cpp">
+      <Filter>源文件\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>源文件\摄像机</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeTexture.cpp">
+      <Filter>源文件\模型与相关</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectionalLight.cpp">
+      <Filter>源文件\光照</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>源文件\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>源文件\光照</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>源文件\模型与相关</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>源文件\模型与相关</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>源文件\模型与相关</Filter>
+    </ClCompile>
+    <ClCompile Include="Node.cpp">
+      <Filter>源文件\场景树基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>源文件\场景树基类</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>源文件\渲染</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>源文件\天空盒</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>源文件\输入</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>源文件\模型与相关</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>源文件\场景树基类</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件\第三方库</Filter>
+    </ClInclude>
+    <ClInclude Include="LibsHeads.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyConst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMouse.h">
+      <Filter>头文件\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="MyKeyboard.h">
+      <Filter>头文件\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>头文件\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>头文件\模型与相关</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeTexture.h">
+      <Filter>头文件\模型与相关</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>头文件\场景树基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>头文件\场景树基类</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>头文件\模型与相关</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>头文件\模型与相关</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>头文件\天空盒</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>头文件\渲染</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>头文件\模型与相关</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>头文件\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectionalLight.h">
+      <Filter>头文件\光照</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>头文件\光照</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>头文件\摄像机</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>头文件\场景树基类</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Skybox.frag">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+    <None Include="Skybox.vert">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+    <None Include="Texture.frag">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+    <None Include="Texture.vert">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+    <None Include="LightMap.vert">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+    <None Include="LightMap.frag">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+    <None Include="WithShadow.frag">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+    <None Include="WithShadow.vert">
+      <Filter>资源文件\着色器</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="863615407.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="skybox_back.jpg">
+      <Filter>资源文件\天空盒</Filter>
+    </Image>
+    <Image Include="skybox_bottom.jpg">
+      <Filter>资源文件\天空盒</Filter>
+    </Image>
+    <Image Include="skybox_front.jpg">
+      <Filter>资源文件\天空盒</Filter>
+    </Image>
+    <Image Include="skybox_left.jpg">
+      <Filter>资源文件\天空盒</Filter>
+    </Image>
+    <Image Include="skybox_right.jpg">
+      <Filter>资源文件\天空盒</Filter>
+    </Image>
+    <Image Include="skybox_top.jpg">
+      <Filter>资源文件\天空盒</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

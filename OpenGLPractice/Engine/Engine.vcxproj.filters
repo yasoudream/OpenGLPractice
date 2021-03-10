@@ -13,10 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\管理器">
+      <UniqueIdentifier>{2cd32ddb-50e8-4c83-bc45-86ee0fb63991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\管理器">
+      <UniqueIdentifier>{d07adf36-50e4-4051-ba02-4b52a3cd7d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\第三方库">
+      <UniqueIdentifier>{47a903a0-f168-47fa-9a53-4192ebcdada8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\第三方库">
+      <UniqueIdentifier>{7df8a61d-f03f-4847-baee-6d9105548d0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\输入">
+      <UniqueIdentifier>{b7feda55-9f6c-4948-a99b-06c7e4214e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\输入">
+      <UniqueIdentifier>{e800bd71-37ac-49dc-83dc-b33c02664cfb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Engine.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>源文件\第三方库</Filter>
+    </ClCompile>
+    <ClCompile Include="stb_image.cpp">
+      <Filter>源文件\第三方库</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseManager.cpp">
+      <Filter>源文件\管理器</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMouse.cpp">
+      <Filter>源文件\输入</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseManager.h">
+      <Filter>头文件\管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>头文件\第三方库</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>头文件\管理器</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMouse.h">
+      <Filter>头文件\输入</Filter>
+    </ClInclude>
+    <ClInclude Include="MyConst.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyKeyborad.h">
+      <Filter>头文件\输入</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
